@@ -4,7 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About Me</title>
+    <style>
+      body {
+        background: linear-gradient(to bottom right, blue, silver 50%);
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        text-align: center; /* center the text */
+        font-size: 26px; /* change the font size */
+        font-family: Montserrat, sans-serif; /* change the font family */
+        color: #007a33; /* change the font color to Celtics green */
+        margin-top: 50px; /* add some margin at the top */
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+      }
+
+      .button {
+        display: inline-block;
+        background-color: #007a33; /* use Celtics green as background color */
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: Montserrat, sans-serif; /* use Montserrat font */
+        margin-top: 20px;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background-color: #005826; /* use a slightly darker shade of green on hover */
+      }
+
+      footer {
+        text-align: center;
+        font-size: 14px;
+        font-family: Montserrat, sans-serif; /* use Montserrat font */
+        color: #555;
+        margin-top: 50px;
+      }
+
+      footer::after {
+        content: "\00a9 GoliInc. All Rights Reserved.";
+      }
+
+      .photo-caption {
+        font-size: 24px;
+        color: red; /* use blood red color */
+        font-family: "Gothic Bold", sans-serif; /* use Gothic Bold font */
+        margin-top: 20px;
+      }
+    </style>
   </head>
-  <body></body>
+
+  <body>
+    <header>About Me</header>
+
+    <main>
+      <p style="text-align: center">Im a current intern</p>
+      <img src="cool-guy-thanos-he.jpg" style="width: 50%" />
+      <div class="photo-caption">THE TRUTH SHALL SET US FREE</div>
+      <h1 style="text-align: center">
+        Im Derris Sylvester Jr, I obviously am a father(as yall know), and also
+        a celtics fan(as yall also know).
+        <br />
+        <span style="color: orange"
+          >UNPOPULAR OPINION: OJ &gt; Apple Juice.</span
+        >
+      </h1>
+      <a
+        href="https://www.linkedin.com/in/derris-sylvester-jr-2144a4265/"
+        class="button"
+        >Tap In</a
+      >
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
